@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mini RPG</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="game">
+
+<h1>⚔️ Mini RPG</h1>
+
+<div id="status">
+<p>❤️ Vida: <span id="vida">100</span></p>
+<p>💰 Ouro: <span id="ouro">0</span></p>
+<p>⭐ Nível: <span id="nivel">1</span></p>
+</div>
+
+<div class="monster">
+<h2 id="monstro">🐺 Lobo</h2>
+<p>Vida: <span id="vidaMonstro">50</span></p>
+</div>
+
+<div class="buttons">
+<button onclick="atacar()">⚔️ Atacar</button>
+<button onclick="curar()">❤️ Curar</button>
+<button onclick="fugir()">🏃 Fugir</button>
+</div>
+
+<div id="log"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
